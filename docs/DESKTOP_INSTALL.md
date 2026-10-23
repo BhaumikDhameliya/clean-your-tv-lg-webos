@@ -1,6 +1,9 @@
 # Install cytv without a terminal
 
-The desktop wizard opens in its own window. It includes Python and the TV packages;
+The desktop wizard opens in its own window. The sidebar follows the four setup
+steps; Root and No-root are shown with descriptions before you choose. Expand
+**Maintenance action** on the start screen for status, diagnostics, restore and removal.
+It includes Python and the TV packages;
 you do not need developer tools or terminal commands.
 
 Download the desktop package for your computer from the
@@ -138,3 +141,10 @@ Every desktop build verifies its embedded payload and launches the frozen window
 with an offline `--smoke-test`; this does not contact a TV. Widget tests cover
 selection, secret entry, safe cancellation and destructive confirmation defaults.
 The Qt libraries remain separate dynamic files in the app/package.
+
+### Offline interface previews
+
+With desktop dependencies installed, `python scripts/preview-installer.py --language ru`
+saves screenshots of the real Qt widgets to `build/installer-preview/`. These use
+sample TV data and do not discover, connect to, or modify a TV. Add `--all-locales`
+to capture every supported language at the minimum window size.
