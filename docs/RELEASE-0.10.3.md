@@ -1,4 +1,4 @@
-# v0.10.2 — Localized setup, recovery and Termux build fixes
+# v0.10.3 — Localized setup, recovery and Termux build fixes
 
 Includes cytv **0.2.6**, Home **1.3.2**, Home Helper **0.6.16**,
 Root Edition **0.1.4**, and No-root Updater **0.1.4**.

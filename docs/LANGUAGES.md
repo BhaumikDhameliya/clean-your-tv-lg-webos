@@ -5,7 +5,7 @@ updates and removal. Technical/developer references remain in English and are
 linked at the end of each guide.
 
 Language selection and the macOS/Linux desktop application described here are included
-in v0.10.2 and later downloads. Existing v0.9.0 downloads
+in v0.10.3 and later downloads. Existing v0.9.0 downloads
 do not contain the new desktop app. Follow the availability notes in your guide.
 
 | Language | Code | User guide |

@@ -26,17 +26,17 @@ handling moved from an external watcher to an on-TV native helper.
 
 Installation, use and recovery: [English](docs/i18n/en.md) · [Deutsch](docs/i18n/de.md) · [Español](docs/i18n/es.md) · [Português (Brasil)](docs/i18n/pt-BR.md) · [Français](docs/i18n/fr.md) · [Italiano](docs/i18n/it.md) · [한국어](docs/i18n/ko.md) · [हिन्दी](docs/i18n/hi.md) · [Polski](docs/i18n/pl.md) · [Русский](docs/i18n/ru.md).
 
-The v0.10.2 release selects the system language automatically and saves
+The v0.10.3 release selects the system language automatically and saves
 an explicit choice in the installer or **Settings → Language** on the TV.
 See [language availability and guides](docs/LANGUAGES.md); older release downloads
 may predate these features.
 
 ## Install with cytv
 
-[Download v0.10.2](https://github.com/Razdva122/clean-your-tv-lg-webos/releases/tag/v0.10.2)
+[Download v0.10.3](https://github.com/Razdva122/clean-your-tv-lg-webos/releases/tag/v0.10.3)
 for Windows, macOS or Linux. One wizard installs either edition. Root activates
 and opens Home immediately, without a trial or Keep confirmation.
-[Desktop setup](docs/DESKTOP_INSTALL.md) · [CLI guide](docs/CLI.md) · [Release notes](docs/RELEASE-0.10.2.md)
+[Desktop setup](docs/DESKTOP_INSTALL.md) · [CLI guide](docs/CLI.md) · [Release notes](docs/RELEASE-0.10.3.md)
 
 ## Choose your edition
 

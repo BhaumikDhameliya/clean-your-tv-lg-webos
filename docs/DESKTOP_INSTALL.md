@@ -7,7 +7,7 @@ It includes Python and the TV packages;
 you do not need developer tools or terminal commands.
 
 Download the desktop package for your computer from the
-[v0.10.2 release](https://github.com/Razdva122/clean-your-tv-lg-webos/releases/tag/v0.10.2).
+[v0.10.3 release](https://github.com/Razdva122/clean-your-tv-lg-webos/releases/tag/v0.10.3).
 The older v0.9.0 macOS/Linux files are console programs, not the desktop app.
 
 ## macOS
@@ -77,7 +77,7 @@ software manager; this does not uninstall TV apps or delete saved recovery data.
 The installer chooses the computer’s language automatically.
 Use the language selector to save another language, or choose **Auto** to follow
 system settings. On the TV, use **Settings → Language**; this is a separate preference.
-These language controls are included in v0.10.2 and later downloads.
+These language controls are included in v0.10.3 and later downloads.
 See the [ten localized installation, use and recovery guides](LANGUAGES.md).
 
 ## In the wizard
