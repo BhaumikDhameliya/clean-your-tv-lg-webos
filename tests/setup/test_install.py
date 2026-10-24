@@ -28,7 +28,7 @@ class InstallTests(unittest.TestCase):
             # External CLI calls are recorded; failure must stop subsequent TV mutations.
             bindir = root / 'bin'; bindir.mkdir()
             # Keep an installed host Zig out of the simulated tool search.
-            for tool in ('bash', 'mkdir', 'ln'):
+            for tool in ('bash', 'dirname', 'mkdir', 'ln'):
                 (bindir / tool).symlink_to(shutil.which(tool))
             cli = bindir / 'cli'
             cli.write_text('''#!/usr/bin/env python3
