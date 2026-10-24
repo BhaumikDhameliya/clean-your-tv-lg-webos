@@ -1,6 +1,6 @@
 # v0.10.2 — Localized setup, recovery and Termux build fixes
 
-Includes cytv **0.2.5**, Home **1.3.2**, Home Helper **0.6.16**,
+Includes cytv **0.2.6**, Home **1.3.2**, Home Helper **0.6.16**,
 Root Edition **0.1.4**, and No-root Updater **0.1.4**.
 
 ## Downloads
@@ -16,6 +16,13 @@ language selection and a saved manual choice. See the
 [desktop guide](DESKTOP_INSTALL.md) and [manual installation](MANUAL_INSTALL.md).
 Mac builds are ad-hoc signed, not Apple-notarized; use the documented
 Privacy & Security → Open Anyway process if required. Do not disable Gatekeeper.
+
+## New desktop installer
+
+macOS and Linux now use a redesigned desktop wizard with a visible four-step
+setup rail, side-by-side Root/No-root choices, keyboard focus indicators and
+collapsible maintenance actions. The layout adapts to smaller desktop windows;
+password masking, safe cancellation and conservative destructive defaults remain.
 
 ## Setup, removal and recovery
 
@@ -45,10 +52,9 @@ for Windows x64, Linux x64, macOS Apple Silicon and macOS Intel. Embedded public
 payloads are verified during builds. `BUILD-INFO.json` records source revisions
 and build provenance, and `SHA256SUMS` covers the downloadable assets.
 
-The installer binaries reuse the successful cytv 0.2.5 CI build: all installer,
-TV-payload and build-workflow inputs are unchanged by the later source-script
-fixes. Manual bundles contain the current packages; the source archive includes the
-build-tool fixes.
+All installer binaries are freshly built with the new desktop interface and
+verified public payloads. Manual bundles contain the current TV packages; the
+source archive includes the Termux and package-permission fixes.
 
 This does not certify every TV model. QNED80T feedback for #10 remains pending;
 C5/webOS 26 Helper startup in #12 still needs diagnostic logs. End-to-end Termux

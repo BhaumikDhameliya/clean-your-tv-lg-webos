@@ -7,7 +7,8 @@
 - Remove Root Updater, its service, startup hook and retained app permissions through cytv; preserve inactive recovery records.
 - Include the Home startup and bounded standby recovery fixes described in issue #10, plus ten-language TV and installer localization. QNED80T feedback is still pending.
 - Fix source builds to postprocess the current Helper package, and honor external Zig in Termux without installing the unavailable Android Python distribution.
-- Versions: cytv 0.2.5, Home 1.3.2, Helper 0.6.16, Root 0.1.4 and No-root Updater 0.1.4.
+- Redesign the desktop wizard with visible setup stages, edition cards, keyboard focus and collapsible maintenance actions.
+- Versions: cytv 0.2.6, Home 1.3.2, Helper 0.6.16, Root 0.1.4 and No-root Updater 0.1.4.
 
 ## Unreleased — C4 helper follow-up
 
